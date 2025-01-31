@@ -83,7 +83,7 @@ img{
 .cta-container{
     text-align: center;
 }
-button{
+.cta-button{
     padding: 15px 20px;
     cursor: pointer;
     border-radius: 15px;
@@ -92,4 +92,30 @@ button{
 .button:hover{
     background-color: #3e8e41;
     color: white;
+}
+.video{
+    text-align: center;
+    padding: 100px;
+}
+.video-describution{
+    margin-top: 16px;
+    padding: 10px;
+}
+.video-buttons{
+    padding: 10px;
+}
+.btn{
+    border: 1px solid #3e8e41;
+    padding: 10px 20px;
+    margin-right: 22px;
+}
+.ri-book-marked-fill{
+    color: #3e8e41;
+}
+.ri-play-circle-fill{
+    color: #3e8e41;
+}
+.video-container{
+    margin-top: 10px;
+    background-color: #ccc;
 }
