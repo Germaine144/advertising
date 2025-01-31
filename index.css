@@ -50,5 +50,46 @@ img{
     opacity: 0.8;
 }
 .container{
-   
+
+}
+
+.featues{
+  padding: 100px; 
+}
+.featues-tittle{
+    text-align: ;
+    font-size: 28px;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+    font-size: 20px;
+    color: #4CAF50;
+    text-decoration: underline;
+}
+.featues-describution{
+    width: 20%;
+    margin: 5px auto;
+    padding: 0%;
+}
+.cta{
+    padding: 100px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: ;
+}
+.cta-dcs{
+    padding: 15px 0;
+    font-size: 16px;
+}
+.cta-container{
+    text-align: center;
+}
+button{
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+}
+.button:hover{
+    background-color: #3e8e41;
+    color: white;
 }
