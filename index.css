@@ -125,3 +125,21 @@ img{
     height: 500px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.27);
 }
+.programs{
+    padding: 100px;
+    background-color: #eee;
+    padding-bottom: 200px;
+}
+.programs-containers{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+.programs-container{
+    background-color: #b3b3b3;
+    padding: 50px;
+    width: 30%;
+    height: 400px;
+    flex-wrap: wrap;
+}
