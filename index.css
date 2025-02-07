@@ -70,6 +70,7 @@ img{
     margin: 5px auto;
     padding: 0%;
 }
+
 .cta{
     padding: 100px;
     background-color: #4CAF50;
@@ -142,4 +143,102 @@ img{
     width: 30%;
     height: 400px;
     flex-wrap: wrap;
+}
+.element{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 70px;
+    background-color: #f8f9fa;
+}
+.element-left{
+    flex: 1;
+}
+.element-right{
+    flex: 1;
+}
+.element-sub{
+    color: gray;
+    margin-top:15px ;
+    margin-bottom: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.element-placeholder{
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+}
+.list-item{
+    list-style: none;
+    padding-left: 0px;
+}
+.list-items{
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(195, 195, 195);
+}
+.list-items::before{
+   content: "→";
+   margin-right: 15px;
+   color: #4CAF50;
+}
+.element-group{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.element-group label{
+    font-size: 16px;
+    font-weight: 500px;
+}
+.element-group input,
+.element-group select{
+    padding: 15px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+}
+.element-group input:focus,
+.element-group select:focus{
+outline: none;
+border-color: #4CAF50;
+box-shadow: 7px 6px 14px 0px rgba(0,0,0,0.75);
+}
+.element-group select{
+cursor: pointer;
+background-color: white;
+}
+.element-btn{
+    margin-top: 20px;
+    padding: 15px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 1s;
+}
+.element-btn:hover{
+    background-color:#7aa77c;
+}
+.hero{
+    height: 70vh;
+    background-image: url("/picture/lr.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(0,0,0,0.67);
+    background-blend-mode: overlay;
+    text-align: center;
+}
+.hero-content h1{
+color: white;
+}
+.dsc{
+    color: #3e8e41;
+}
+span{
+    color:white;
 }
